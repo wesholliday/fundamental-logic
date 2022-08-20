@@ -1,0 +1,28 @@
+formulas(assumptions).
+
+% Lattice axioms
+
+x v x = x.
+x ^ x = x.
+x v y = y v x.
+x ^ y = y ^ x.
+x v (y v z) = (x v y) v z.
+x ^ (y ^ z) = (x ^ y) ^ z.
+
+x ^ (x v y) = x.
+x v (x ^ y) = x.
+
+% Bounded lattice
+
+x ^ 0 = 0.
+x v 1 = 1.
+
+% Ultraweak pseudocomplementation
+
+x = x ^ y -> c(y) = c(y) ^ c(x).
+
+x = x ^ c(c(x)).
+
+c(1) = 0.
+
+end_of_list.

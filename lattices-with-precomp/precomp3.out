@@ -1,0 +1,61 @@
+interpretation( 3, [number = 1,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,
+        0,1,2,
+        0,2,2]),
+    function(v(_,_), [
+        0,1,2,
+        1,1,1,
+        2,1,2]),
+    function(c(_), [0,0,0])]).
+interpretation( 3, [number = 2,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,
+        0,1,2,
+        0,2,2]),
+    function(v(_,_), [
+        0,1,2,
+        1,1,1,
+        2,1,2]),
+    function(c(_), [1,0,0])]).
+interpretation( 3, [number = 3,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,
+        0,1,2,
+        0,2,2]),
+    function(v(_,_), [
+        0,1,2,
+        1,1,1,
+        2,1,2]),
+    function(c(_), [1,0,1])]).
+interpretation( 3, [number = 4,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,
+        0,1,2,
+        0,2,2]),
+    function(v(_,_), [
+        0,1,2,
+        1,1,1,
+        2,1,2]),
+    function(c(_), [1,0,2])]).
+interpretation( 3, [number = 5,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,
+        0,1,2,
+        0,2,2]),
+    function(v(_,_), [
+        0,1,2,
+        1,1,1,
+        2,1,2]),
+    function(c(_), [2,0,0])]).
+interpretation( 3, [number = 6,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,
+        0,1,2,
+        0,2,2]),
+    function(v(_,_), [
+        0,1,2,
+        1,1,1,
+        2,1,2]),
+    function(c(_), [2,0,2])]).
+% isofilter: input=6, kept=6, checks=6, perms=6, 0.00 seconds.

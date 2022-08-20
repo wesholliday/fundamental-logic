@@ -1,0 +1,49 @@
+interpretation( 4, [number = 1,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,0,
+        0,1,2,3,
+        0,2,2,0,
+        0,3,0,3]),
+    function(v(_,_), [
+        0,1,2,3,
+        1,1,1,1,
+        2,1,2,1,
+        3,1,1,3]),
+    function(c(_), [1,0,0,0])]).
+interpretation( 4, [number = 2,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,0,
+        0,1,2,3,
+        0,2,2,2,
+        0,3,2,3]),
+    function(v(_,_), [
+        0,1,2,3,
+        1,1,1,1,
+        2,1,2,3,
+        3,1,3,3]),
+    function(c(_), [1,0,0,0])]).
+interpretation( 4, [number = 4,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,0,
+        0,1,2,3,
+        0,2,2,0,
+        0,3,0,3]),
+    function(v(_,_), [
+        0,1,2,3,
+        1,1,1,1,
+        2,1,2,1,
+        3,1,1,3]),
+    function(c(_), [1,0,0,2])]).
+interpretation( 4, [number = 6,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,0,
+        0,1,2,3,
+        0,2,2,0,
+        0,3,0,3]),
+    function(v(_,_), [
+        0,1,2,3,
+        1,1,1,1,
+        2,1,2,1,
+        3,1,1,3]),
+    function(c(_), [1,0,3,2])]).
+% isofilter: input=6, kept=4, checks=2, perms=3, 0.00 seconds.

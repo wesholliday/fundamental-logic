@@ -1,0 +1,118 @@
+interpretation( 3, [number = 1,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,
+        0,1,2,
+        0,2,2]),
+    function(v(_,_), [
+        0,1,2,
+        1,1,1,
+        2,1,2]),
+    function(i(_,_), [
+        0,1,1,
+        0,1,2,
+        0,1,1])]).
+interpretation( 3, [number = 2,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,
+        0,1,2,
+        0,2,2]),
+    function(v(_,_), [
+        0,1,2,
+        1,1,1,
+        2,1,2]),
+    function(i(_,_), [
+        0,1,1,
+        0,1,2,
+        0,1,2])]).
+interpretation( 3, [number = 3,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,
+        0,1,2,
+        0,2,2]),
+    function(v(_,_), [
+        0,1,2,
+        1,1,1,
+        2,1,2]),
+    function(i(_,_), [
+        0,1,2,
+        0,1,2,
+        0,1,2])]).
+interpretation( 3, [number = 4,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,
+        0,1,2,
+        0,2,2]),
+    function(v(_,_), [
+        0,1,2,
+        1,1,1,
+        2,1,2]),
+    function(i(_,_), [
+        1,1,1,
+        0,1,2,
+        0,1,1])]).
+interpretation( 3, [number = 5,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,
+        0,1,2,
+        0,2,2]),
+    function(v(_,_), [
+        0,1,2,
+        1,1,1,
+        2,1,2]),
+    function(i(_,_), [
+        1,1,1,
+        0,1,2,
+        1,1,1])]).
+interpretation( 3, [number = 6,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,
+        0,1,2,
+        0,2,2]),
+    function(v(_,_), [
+        0,1,2,
+        1,1,1,
+        2,1,2]),
+    function(i(_,_), [
+        1,1,1,
+        0,1,2,
+        0,1,2])]).
+interpretation( 3, [number = 7,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,
+        0,1,2,
+        0,2,2]),
+    function(v(_,_), [
+        0,1,2,
+        1,1,1,
+        2,1,2]),
+    function(i(_,_), [
+        1,1,1,
+        0,1,2,
+        2,1,2])]).
+interpretation( 3, [number = 8,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,
+        0,1,2,
+        0,2,2]),
+    function(v(_,_), [
+        0,1,2,
+        1,1,1,
+        2,1,2]),
+    function(i(_,_), [
+        2,1,2,
+        0,1,2,
+        0,1,2])]).
+interpretation( 3, [number = 9,seconds = 0], [
+    function(^(_,_), [
+        0,0,0,
+        0,1,2,
+        0,2,2]),
+    function(v(_,_), [
+        0,1,2,
+        1,1,1,
+        2,1,2]),
+    function(i(_,_), [
+        2,1,2,
+        0,1,2,
+        2,1,2])]).
+% isofilter: input=9, kept=9, checks=4, perms=4, 0.00 seconds.
