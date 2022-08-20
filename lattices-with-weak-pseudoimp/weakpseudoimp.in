@@ -1,0 +1,36 @@
+formulas(assumptions).
+
+% Lattice axioms
+
+x v x = x.
+x ^ x = x.
+x v y = y v x.
+x ^ y = y ^ x.
+x v (y v z) = (x v y) v z.
+x ^ (y ^ z) = (x ^ y) ^ z.
+
+x ^ (x v y) = x.
+x v (x ^ y) = x.
+
+% Bounded lattice
+
+x ^ 0 = 0.
+x v 1 = 1.
+
+% Preimplication
+
+x = i(1,x).
+
+i(x,i(x,y)) = i(x,i(x,y)) ^ i(x,y).
+
+x = x ^ y -> i(y,z) = i(y,z) ^ i(x,z).
+
+x = x ^ y -> i(z,x) = i(z,x) ^ i(z,y).
+
+i(x,x) = 1.
+
+x ^ i(x,y) = (x ^ i(x,y)) ^ y.
+
+x = x ^ i(i(x,y),y).
+
+end_of_list.
